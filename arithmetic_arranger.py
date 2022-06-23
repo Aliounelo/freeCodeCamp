@@ -64,11 +64,10 @@ def arithmetic_arranger(problems, answer=False):
           if len(result) > max(len(operand_1[i]), len(operand_2[i])):
             row_4.append(" " + result)
           else:
-            row_4.append("  "*(max(len(operand_1[i]), len(operand_2[i])) - len(result) + 2)+result)
+            row_4.append(" "*(max(len(operand_1[i]), len(operand_2[i])) - len(result) + 2)+result)
       arranged_problems = "    ".join(row_1) + "\n" + "    ".join(row_2) + "\n" + "    ".join(row_3) + "\n" + "    ".join(row_4)
     else:
       arranged_problems = "    ".join(row_1) + "\n" + "    ".join(row_2) + "\n" + "    ".join(row_3)
 
     return arranged_problems
 
-    #return arranged_problems
