@@ -52,7 +52,7 @@ def arithmetic_arranger(problems, answer=False):
                          operand_2[i])
 
     for i in range(len(operand_1)):
-        row_3.append("-" * (max(len(operand_1[i]), len(operand_2[i]) + 1)))
+        row_3.append("-"*(max(len(operand_1[i]), len(operand_2[i]))+2))
 
     if answer:
       for i in range(len(operand_1)):
@@ -70,4 +70,3 @@ def arithmetic_arranger(problems, answer=False):
       arranged_problems = "    ".join(row_1) + "\n" + "    ".join(row_2) + "\n" + "    ".join(row_3)
 
     return arranged_problems
-
