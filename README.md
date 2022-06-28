@@ -28,7 +28,7 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/53930501/176225055-b883189c-f1f1-494a-926a-b91e18bc91fd.png)
 
-Rules
+<h1><b>Rules</b></h1>
 
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
 
@@ -43,7 +43,7 @@ The function will return the correct conversion if the supplied problems are pro
   + There should be four spaces between each problem.
   + There should be dashes at the bottom of each problem. The dashes should       run along the entire length of each problem individually. (The example         above shows what this should look like.)
 
-Development
+<h1><b>Development</h1></b>
 
 Write your code in arithmetic_arranger.py. For development, you can use main.py to test your arithmetic_arranger() function. Click the "run" button and main.py will run.
 
