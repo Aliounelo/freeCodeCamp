@@ -12,24 +12,21 @@ Example
 
 Function Call:
 
-arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
+![image](https://user-images.githubusercontent.com/53930501/176224806-45a89921-2d2e-41bd-bae2-ac3c3b52e0d4.png)
+
 
 Output:
 
-   32      3801      45      123 <br >
-+ 698    -    2    + 43    +  49 <br >
------    ------    ----    -----
+![image](https://user-images.githubusercontent.com/53930501/176224898-7819ea0a-ca3d-4b25-957d-729de04a6d61.png)
 
 Function Call:
 
-arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True)
+![image](https://user-images.githubusercontent.com/53930501/176224972-63dc8964-e3c5-4ff0-8cb1-d803470a91d3.png)
+
 
 Output:
 
-  32         1      9999      523
-+  8    - 3801    + 9999    -  49
-----    ------    ------    -----
-  40     -3800     19998      474
+![image](https://user-images.githubusercontent.com/53930501/176225055-b883189c-f1f1-494a-926a-b91e18bc91fd.png)
 
 Rules
 
